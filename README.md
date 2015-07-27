@@ -59,7 +59,7 @@ Play/stop CSS based animation using a `--start` class modifier.
     }
 </style>
 <div pa-class="a-class-name"
-    pa-active="trigger"
+    pa-active="runAnimation"
     pa-undo="1">I am a red text!</div>
 <button ng-click="trigger = !trigger">Toggle status</button>
 ```
