@@ -59,7 +59,7 @@ Play/stop CSS based animation using a `--start` class modifier.
     }
 </style>
 <div pa-class="a-class-name"
-    pa-active="trigger"
+    pa-active="runAnimation"
     pa-undo="1">I am a red text!</div>
 <button ng-click="trigger = !trigger">Toggle status</button>
 ```
@@ -89,9 +89,9 @@ By default, the animations are run in sequence, and not repeated unless `pa-undo
 
 ```html
 <div pa-router pa-active="sequence" pa-undo="1">
-    <div pa-class="animation-1" class="animation-1"></div>
+    <div pa-class="animation-1"></div>
     <div pa-delay="500"></div>
-    <div pa-class="animation-2" class="animation-2"> </div>
+    <div pa-class="animation-2"> </div>
 </div>
 ```
 
