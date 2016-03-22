@@ -1,0 +1,12 @@
+{
+  "gitbook": "2.5.2",
+  "structure": {
+    "summary": "docs/README.md"
+  },
+  "plugins": ["github"],
+  "pluginsConfig": {
+    "github": {
+      "url": "https://github.com/artoale/angular-cat/"
+    }
+  }
+}
